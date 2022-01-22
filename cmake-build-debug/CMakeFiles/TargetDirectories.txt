@@ -1,0 +1,3 @@
+/Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/challenges.dir
