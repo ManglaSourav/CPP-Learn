@@ -36,7 +36,6 @@ public:
         return true;
     }
 
-
     void printList() {
         if (head == NULL) {
             return;
@@ -62,11 +61,9 @@ public:
 
     }
 
-
 };
 
 int main() {
-
     LinkedList l1;
     l1.insert(12);
     l1.insert(11);
@@ -74,6 +71,5 @@ int main() {
     l1.printList();
     cout << endl << l1.deleteFirst() << endl;
     l1.printList();
-
     return 0;
 }

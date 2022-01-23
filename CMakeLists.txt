@@ -3,4 +3,4 @@ project(challenges)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(challenges DS/Single_LL.cpp)
+add_executable(challenges DS/Single_LL.cpp DS/Arrays.cpp)

@@ -78,6 +78,12 @@ build CMakeFiles/challenges.dir/DS/Single_LL.cpp.o: CXX_COMPILER__challenges_Deb
   OBJECT_DIR = CMakeFiles/challenges.dir
   OBJECT_FILE_DIR = CMakeFiles/challenges.dir/DS
 
+build CMakeFiles/challenges.dir/DS/Arrays.cpp.o: CXX_COMPILER__challenges_Debug /Users/souravmangla/CLionProjects/challenges/DS/Arrays.cpp || cmake_object_order_depends_target_challenges
+  DEP_FILE = CMakeFiles/challenges.dir/DS/Arrays.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/challenges.dir
+  OBJECT_FILE_DIR = CMakeFiles/challenges.dir/DS
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target challenges
@@ -86,7 +92,7 @@ build CMakeFiles/challenges.dir/DS/Single_LL.cpp.o: CXX_COMPILER__challenges_Deb
 #############################################
 # Link the executable challenges
 
-build challenges: CXX_EXECUTABLE_LINKER__challenges_Debug CMakeFiles/challenges.dir/DS/Single_LL.cpp.o
+build challenges: CXX_EXECUTABLE_LINKER__challenges_Debug CMakeFiles/challenges.dir/DS/Single_LL.cpp.o CMakeFiles/challenges.dir/DS/Arrays.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/challenges.dir
   POST_BUILD = :
