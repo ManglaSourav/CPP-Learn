@@ -35,6 +35,8 @@ char *mystrtok(char *str, char delim) {
 
 int main() {
 
+    cout << '2' - '0';
+    return 0;
     char str[1000];
     cout << "Enter a line:- ";
     cin.getline(str, 1000);

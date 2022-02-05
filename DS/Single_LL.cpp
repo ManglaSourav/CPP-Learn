@@ -48,28 +48,29 @@ public:
         return;
     }
 
-    int deleteFirst() {
+    void deleteFirst() {
 
         if (head == NULL)
-            return NULL;
+            return;
 
         Node *tempNode = head;
         head = head->next;
         int data = tempNode->data;
         free(tempNode);
-        return data;
+//        return data;
 
     }
 
 };
 
-int main() {
-    LinkedList l1;
-    l1.insert(12);
-    l1.insert(11);
-    l1.insert(10);
-    l1.printList();
-    cout << endl << l1.deleteFirst() << endl;
-    l1.printList();
-    return 0;
-}
+//int main() {
+//    LinkedList l1;
+//    l1.insert(12);
+//    l1.insert(11);
+//    l1.insert(10);
+//    l1.printList();
+//    l1.deleteFirst();
+////    cout << endl << l1.deleteFirst() << endl;
+//    l1.printList();
+//    return 0;
+//}
