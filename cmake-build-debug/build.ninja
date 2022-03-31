@@ -51,6 +51,130 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NK_ladder
+
+
+#############################################
+# Order-only phony target for NK_ladder
+
+build cmake_object_order_depends_target_NK_ladder: phony || CMakeFiles/NK_ladder.dir
+
+build CMakeFiles/NK_ladder.dir/Problems/Others/NK_ladder.cpp.o: CXX_COMPILER__NK_ladder_Debug /Users/souravmangla/CLionProjects/challenges/Problems/Others/NK_ladder.cpp || cmake_object_order_depends_target_NK_ladder
+  DEP_FILE = CMakeFiles/NK_ladder.dir/Problems/Others/NK_ladder.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/NK_ladder.dir
+  OBJECT_FILE_DIR = CMakeFiles/NK_ladder.dir/Problems/Others
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NK_ladder
+
+
+#############################################
+# Link the executable NK_ladder
+
+build NK_ladder: CXX_EXECUTABLE_LINKER__NK_ladder_Debug CMakeFiles/NK_ladder.dir/Problems/Others/NK_ladder.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/NK_ladder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = NK_ladder
+  TARGET_PDB = NK_ladder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target median_two_sorted_array_4
+
+
+#############################################
+# Order-only phony target for median_two_sorted_array_4
+
+build cmake_object_order_depends_target_median_two_sorted_array_4: phony || CMakeFiles/median_two_sorted_array_4.dir
+
+build CMakeFiles/median_two_sorted_array_4.dir/Problems/Leetcode/median_two_sorted_array_4.cpp.o: CXX_COMPILER__median_two_sorted_array_4_Debug /Users/souravmangla/CLionProjects/challenges/Problems/Leetcode/median_two_sorted_array_4.cpp || cmake_object_order_depends_target_median_two_sorted_array_4
+  DEP_FILE = CMakeFiles/median_two_sorted_array_4.dir/Problems/Leetcode/median_two_sorted_array_4.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/median_two_sorted_array_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/median_two_sorted_array_4.dir/Problems/Leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target median_two_sorted_array_4
+
+
+#############################################
+# Link the executable median_two_sorted_array_4
+
+build median_two_sorted_array_4: CXX_EXECUTABLE_LINKER__median_two_sorted_array_4_Debug CMakeFiles/median_two_sorted_array_4.dir/Problems/Leetcode/median_two_sorted_array_4.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/median_two_sorted_array_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = median_two_sorted_array_4
+  TARGET_PDB = median_two_sorted_array_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dijkstra
+
+
+#############################################
+# Order-only phony target for dijkstra
+
+build cmake_object_order_depends_target_dijkstra: phony || CMakeFiles/dijkstra.dir
+
+build CMakeFiles/dijkstra.dir/Algo/dijkstra.cc.o: CXX_COMPILER__dijkstra_Debug /Users/souravmangla/CLionProjects/challenges/Algo/dijkstra.cc || cmake_object_order_depends_target_dijkstra
+  DEP_FILE = CMakeFiles/dijkstra.dir/Algo/dijkstra.cc.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/dijkstra.dir
+  OBJECT_FILE_DIR = CMakeFiles/dijkstra.dir/Algo
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dijkstra
+
+
+#############################################
+# Link the executable dijkstra
+
+build dijkstra: CXX_EXECUTABLE_LINKER__dijkstra_Debug CMakeFiles/dijkstra.dir/Algo/dijkstra.cc.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/dijkstra.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = dijkstra
+  TARGET_PDB = dijkstra.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DES_keys
+
+
+#############################################
+# Order-only phony target for DES_keys
+
+build cmake_object_order_depends_target_DES_keys: phony || CMakeFiles/DES_keys.dir
+
+build CMakeFiles/DES_keys.dir/Algo/DES_keys.cpp.o: CXX_COMPILER__DES_keys_Debug /Users/souravmangla/CLionProjects/challenges/Algo/DES_keys.cpp || cmake_object_order_depends_target_DES_keys
+  DEP_FILE = CMakeFiles/DES_keys.dir/Algo/DES_keys.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/DES_keys.dir
+  OBJECT_FILE_DIR = CMakeFiles/DES_keys.dir/Algo
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DES_keys
+
+
+#############################################
+# Link the executable DES_keys
+
+build DES_keys: CXX_EXECUTABLE_LINKER__DES_keys_Debug CMakeFiles/DES_keys.dir/Algo/DES_keys.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/DES_keys.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DES_keys
+  TARGET_PDB = DES_keys.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -281,6 +405,37 @@ build unodered_set: CXX_EXECUTABLE_LINKER__unodered_set_Debug CMakeFiles/unodere
   TARGET_PDB = unodered_set.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target min_positive_sub_arr
+
+
+#############################################
+# Order-only phony target for min_positive_sub_arr
+
+build cmake_object_order_depends_target_min_positive_sub_arr: phony || CMakeFiles/min_positive_sub_arr.dir
+
+build CMakeFiles/min_positive_sub_arr.dir/Problems/Others/min_positive_sum_sub_arr.cpp.o: CXX_COMPILER__min_positive_sub_arr_Debug /Users/souravmangla/CLionProjects/challenges/Problems/Others/min_positive_sum_sub_arr.cpp || cmake_object_order_depends_target_min_positive_sub_arr
+  DEP_FILE = CMakeFiles/min_positive_sub_arr.dir/Problems/Others/min_positive_sum_sub_arr.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/min_positive_sub_arr.dir
+  OBJECT_FILE_DIR = CMakeFiles/min_positive_sub_arr.dir/Problems/Others
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target min_positive_sub_arr
+
+
+#############################################
+# Link the executable min_positive_sub_arr
+
+build min_positive_sub_arr: CXX_EXECUTABLE_LINKER__min_positive_sub_arr_Debug CMakeFiles/min_positive_sub_arr.dir/Problems/Others/min_positive_sum_sub_arr.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/min_positive_sub_arr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = min_positive_sub_arr
+  TARGET_PDB = min_positive_sub_arr.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target map
 
 
@@ -458,7 +613,7 @@ build challenges: CXX_EXECUTABLE_LINKER__challenges_Debug CMakeFiles/challenges.
 #############################################
 # Folder: /Users/souravmangla/CLionProjects/challenges/cmake-build-debug
 
-build all: phony binary_search_tree space20 Longest_mountain_845 string_tokenisation mystrtok Longest_consecative_sequence_128 unodered_set map Subarray_Sum_Equals_K_560 min_swap_to_sort_array Trapping_rain_water_42 challenges
+build all: phony NK_ladder median_two_sorted_array_4 dijkstra DES_keys binary_search_tree space20 Longest_mountain_845 string_tokenisation mystrtok Longest_consecative_sequence_128 unodered_set min_positive_sub_arr map Subarray_Sum_Equals_K_560 min_swap_to_sort_array Trapping_rain_water_42 challenges
 
 # =============================================================================
 # Built-in targets

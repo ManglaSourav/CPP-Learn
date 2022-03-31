@@ -16,3 +16,8 @@ add_executable(mystrtok STL/mystrtok.cpp)
 add_executable(binary_search_tree DS/binary_search_tree.cpp)
 
 add_executable(Subarray_Sum_Equals_K_560 Problems/Leetcode/Minimum_Size_Subarray_Sum_209.cpp)
+add_executable(min_positive_sub_arr Problems/Others/min_positive_sum_sub_arr.cpp)
+add_executable(DES_keys Algo/DES_keys.cpp)
+add_executable(median_two_sorted_array_4 Problems/Leetcode/median_two_sorted_array_4.cpp)
+add_executable(dijkstra Algo/dijkstra.cc)
+add_executable(NK_ladder Problems/Others/NK_ladder.cpp)
