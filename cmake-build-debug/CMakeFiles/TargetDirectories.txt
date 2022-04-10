@@ -1,4 +1,5 @@
 /Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/factorial.dir
 /Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/NK_ladder.dir
 /Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/median_two_sorted_array_4.dir
 /Users/souravmangla/CLionProjects/challenges/cmake-build-debug/CMakeFiles/dijkstra.dir
