@@ -24,3 +24,4 @@ add_executable(NK_ladder Problems/Others/NK_ladder.cpp)
 
 
 add_executable(factorial Topics/DP/fibonacci.cpp)
+add_executable(Ugly_Number_II_264 Problems/Leetcode/Ugly_Number_II_264.cpp)
